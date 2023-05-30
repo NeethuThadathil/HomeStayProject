@@ -1,0 +1,43 @@
+.row{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(243, 243, 248);
+     display: flex; 
+    justify-content: space-between; 
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.col{
+    width: 100%;
+    height: 250px;
+    text-align:justify;
+}
+.col:hover{
+    background-color: rgb(220, 220, 248);
+    border: 2px blue solid;
+}
+.div3{
+    width: 100%;
+    height: 481px;
+    background-image: url("./images/img3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .divp{
+       padding-top: 208px;
+    position:static;
+   }
+   .row2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+   }
+   .d{
+    margin-left: 150px;
+   }
+.butn{
+    transition: 1s ease-in;
+}
+.butn:hover{
+    transform: scale(1.50);
+}
